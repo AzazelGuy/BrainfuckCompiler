@@ -1,32 +1,33 @@
-# Prerequisites
-*.d
+# ==========================================
+# Pastas de Compilação (Geradas pelo CMake)
+# ==========================================
+build/
+.cache/
 
-# Compiled Object files
-*.slo
-*.lo
+# ==========================================
+# Configurações Locais do VS Code
+# ==========================================
+.vscode/
+# Se você quiser salvar as tarefas (tasks.json) ou o launch.json no GitHub, 
+# você pode remover o .vscode/ e ignorar apenas arquivos pessoais específicos:
+# .vscode/settings.json
+
+# ==========================================
+# Arquivos gerados pelo Clangd
+# ==========================================
+.clangd/
+compile_commands.json
+
+# ==========================================
+# Arquivos Temporários e de Sistema
+# ==========================================
+*.exe
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.dll
+*.so
+*.dylib
+.DS_Store
+Thumbs.db
